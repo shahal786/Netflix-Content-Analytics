@@ -1,0 +1,60 @@
+{
+  "n_features_total": 155,
+  "n_numeric": 14,
+  "n_binary": 3,
+  "n_country_onehot": 13,
+  "n_genre_multihot": 25,
+  "n_text_svd": 100,
+  "svd_explained_variance": 0.12579441878991302,
+  "split": {
+    "train": 6101,
+    "val": 1308,
+    "test": 1308
+  },
+  "class_share_train": [
+    635,
+    2660,
+    2806
+  ],
+  "top_countries": [
+    "United States",
+    "India",
+    "Unknown",
+    "United Kingdom",
+    "Canada",
+    "Japan",
+    "South Korea",
+    "France",
+    "Spain",
+    "Mexico",
+    "Turkey",
+    "Egypt"
+  ],
+  "top_genres": [
+    "International Movies",
+    "Dramas",
+    "Comedies",
+    "International TV Shows",
+    "Action & Adventure",
+    "Documentaries",
+    "TV Dramas",
+    "Independent Movies",
+    "Children & Family Movies",
+    "Romantic Movies",
+    "TV Comedies",
+    "Thrillers",
+    "Crime TV Shows",
+    "Kids' TV",
+    "Romantic TV Shows",
+    "Docuseries",
+    "Music & Musicals",
+    "Horror Movies",
+    "Stand-Up Comedy",
+    "Reality TV",
+    "Sci-Fi & Fantasy",
+    "British TV Shows",
+    "Sports Movies",
+    "Korean TV Shows",
+    "Spanish-Language TV Shows"
+  ]
+}

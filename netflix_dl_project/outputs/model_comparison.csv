@@ -1,0 +1,5 @@
+,accuracy,macro_f1,weighted_f1,log_loss,roc_auc_macro_ovr
+MLP (deep learning),0.7026,0.7308,0.7041,0.614,0.8555
+Logistic Regression,0.6888,0.718,0.6902,0.6262,0.8494
+Random Forest,0.6858,0.7047,0.6869,0.6886,0.8423
+Majority-class baseline,0.4595,0.2099,0.2893,,0.5

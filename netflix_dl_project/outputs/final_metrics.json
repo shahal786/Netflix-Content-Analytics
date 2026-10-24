@@ -1,0 +1,118 @@
+{
+  "test_metrics_mlp": {
+    "accuracy": 0.7025993883792049,
+    "macro_f1": 0.7307537544953925,
+    "weighted_f1": 0.7041049711621393,
+    "log_loss": 0.6139594727573853,
+    "roc_auc_macro_ovr": 0.8555203274326858
+  },
+  "per_class": {
+    "Kids": {
+      "precision": 0.8869565217391304,
+      "recall": 0.7445255474452555,
+      "f1-score": 0.8095238095238095,
+      "support": 137.0
+    },
+    "Teens": {
+      "precision": 0.6464,
+      "recall": 0.7087719298245614,
+      "f1-score": 0.6761506276150627,
+      "support": 570.0
+    },
+    "Adults": {
+      "precision": 0.727112676056338,
+      "recall": 0.6871880199667221,
+      "f1-score": 0.7065868263473054,
+      "support": 601.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      102,
+      33,
+      2
+    ],
+    [
+      13,
+      404,
+      153
+    ],
+    [
+      0,
+      188,
+      413
+    ]
+  ],
+  "auc_per_class": {
+    "Kids": 0.9620512756580875,
+    "Teens": 0.77687918984453,
+    "Adults": 0.82763051679544
+  },
+  "macro_auc": 0.8555203274326858,
+  "n_params": 10179,
+  "best_epoch": 61,
+  "epochs_run": 81,
+  "config": {
+    "hidden": [
+      64
+    ],
+    "alpha": 0.1,
+    "lr": 0.0003
+  },
+  "train_acc_at_best": 0.7598754302573348,
+  "val_acc_at_best": 0.7010703363914373,
+  "mean_conf_correct": 0.7353014868178351,
+  "mean_conf_wrong": 0.643469983007874,
+  "top_features": {
+    "genre=Kids' TV": {
+      "mean_drop": 0.1378,
+      "std": 0.0082,
+      "rf_importance": 0.0493
+    },
+    "movie_minutes": {
+      "mean_drop": 0.0602,
+      "std": 0.0109,
+      "rf_importance": 0.0214
+    },
+    "genre=Children & Family Movies": {
+      "mean_drop": 0.0596,
+      "std": 0.0045,
+      "rf_importance": 0.034
+    },
+    "primary_country (one-hot)": {
+      "mean_drop": 0.0313,
+      "std": 0.0038,
+      "rf_importance": 0.0185
+    },
+    "release_year": {
+      "mean_drop": 0.018,
+      "std": 0.0054,
+      "rf_importance": 0.0144
+    },
+    "genre=Stand-Up Comedy": {
+      "mean_drop": 0.0135,
+      "std": 0.0037,
+      "rf_importance": 0.008
+    },
+    "description text (TF-IDF+SVD)": {
+      "mean_drop": 0.0119,
+      "std": 0.003,
+      "rf_importance": 0.7352
+    },
+    "desc_chars": {
+      "mean_drop": 0.0104,
+      "std": 0.0035,
+      "rf_importance": 0.0055
+    },
+    "genre=Independent Movies": {
+      "mean_drop": 0.0101,
+      "std": 0.0029,
+      "rf_importance": 0.0084
+    },
+    "n_seasons": {
+      "mean_drop": 0.0095,
+      "std": 0.0027,
+      "rf_importance": 0.0031
+    }
+  }
+}

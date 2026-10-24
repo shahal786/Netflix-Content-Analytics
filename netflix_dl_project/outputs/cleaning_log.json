@@ -1,0 +1,75 @@
+{
+  "raw_shape": [
+    8807,
+    12
+  ],
+  "raw_columns": [
+    "show_id",
+    "type",
+    "title",
+    "director",
+    "cast",
+    "country",
+    "date_added",
+    "release_year",
+    "rating",
+    "duration",
+    "listed_in",
+    "description"
+  ],
+  "missing_raw": {
+    "show_id": 0,
+    "type": 0,
+    "title": 0,
+    "director": 2634,
+    "cast": 825,
+    "country": 831,
+    "date_added": 10,
+    "release_year": 0,
+    "rating": 4,
+    "duration": 3,
+    "listed_in": 0,
+    "description": 0
+  },
+  "shifted_rows_repaired": 3,
+  "exact_duplicates": 0,
+  "key_duplicates": 0,
+  "unparsed_dates": 10,
+  "rows_before_target_filter": 8807,
+  "rows_dropped_unrated": 90,
+  "outliers_iqr": {
+    "movie_minutes (movies only)": 388,
+    "n_seasons (TV only)": 258,
+    "n_cast": 122,
+    "lag_years": 962,
+    "desc_words": 64
+  },
+  "final_shape": [
+    8717,
+    31
+  ],
+  "class_counts": {
+    "Adults": 4009,
+    "Teens": 3800,
+    "Kids": 908
+  },
+  "engineered_features": [
+    "is_movie",
+    "lag_years",
+    "year_added",
+    "month_added",
+    "movie_minutes",
+    "n_seasons",
+    "n_genres",
+    "n_cast",
+    "n_countries",
+    "n_directors",
+    "has_director",
+    "has_cast",
+    "primary_country",
+    "desc_words",
+    "desc_chars",
+    "title_len",
+    "sentiment"
+  ]
+}
